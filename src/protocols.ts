@@ -30,3 +30,15 @@ export type RequestError = {
   name: string,
   message: string,
 };
+
+export type paymentTypeEntity = {
+  ticketId: number;
+  id: number;
+  createdAt: Date;
+  updatedAt: Date;
+  value: number;
+  cardIssuer: string;
+  cardLastDigits: string;
+};
+
+export type paymentType = Partial<paymentTypeEntity>;
