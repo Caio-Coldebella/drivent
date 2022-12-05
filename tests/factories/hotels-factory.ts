@@ -30,3 +30,17 @@ export async function createRoomWithCapacity(hotelId: number, capacity: number) 
     }
   });
 }
+
+export async function createRoom(hotelId: number) {
+  const date = new Date();
+  const insertdate = date.toISOString();
+  return prisma.room.create({
+    data: {
+      name: faker.lorem.word(),
+      capacity: Math.floor(Math.random()*2 + 1),
+      hotelId: hotelId,
+      createdAt: insertdate,
+      updatedAt: insertdate
+    }
+  });
+}

@@ -52,8 +52,13 @@ type SignInResult = {
 
 type GetUserOrFailResult = Pick<User, "id" | "email" | "password">;
 
+export async function getUserId(tk: string) {
+  return sessionRepository.getuserId(tk);
+}
+
 const authenticationService = {
   signIn,
+  getUserId
 };
 
 export default authenticationService;
