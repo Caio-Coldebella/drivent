@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1670219449490" clover="3.2.0">
-  <project timestamp="1670219449490" name="All files">
-    <metrics statements="677" coveredstatements="644" conditionals="105" coveredconditionals="79" methods="114" coveredmethods="107" elements="896" coveredelements="830" complexity="0" loc="677" ncloc="677" packages="27" files="72" classes="72"/>
+<coverage generated="1670222985879" clover="3.2.0">
+  <project timestamp="1670222985879" name="All files">
+    <metrics statements="689" coveredstatements="637" conditionals="105" coveredconditionals="77" methods="120" coveredmethods="106" elements="914" coveredelements="820" complexity="0" loc="689" ncloc="689" packages="27" files="72" classes="72"/>
     <package name="src">
       <metrics statements="18" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
       <file name="app.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/app.ts">
@@ -52,7 +52,7 @@
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="172" coveredstatements="162" conditionals="32" coveredconditionals="26" methods="16" coveredmethods="16"/>
+      <metrics statements="172" coveredstatements="156" conditionals="32" coveredconditionals="25" methods="16" coveredmethods="16"/>
       <file name="authentication-controller.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/controllers/authentication-controller.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
@@ -71,12 +71,12 @@
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
-        <line num="9" count="7" type="stmt"/>
-        <line num="10" count="7" type="stmt"/>
-        <line num="11" count="7" type="stmt"/>
-        <line num="12" count="7" type="stmt"/>
-        <line num="13" count="5" type="cond" truecount="4" falsecount="0"/>
-        <line num="14" count="2" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
         <line num="17" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="18" count="1" type="stmt"/>
@@ -94,27 +94,27 @@
         <line num="37" count="1" type="stmt"/>
         <line num="40" count="0" type="stmt"/>
         <line num="44" count="11" type="stmt"/>
-        <line num="45" count="4" type="stmt"/>
-        <line num="46" count="4" type="stmt"/>
-        <line num="47" count="4" type="cond" truecount="0" falsecount="1"/>
+        <line num="45" count="5" type="stmt"/>
+        <line num="46" count="5" type="stmt"/>
+        <line num="47" count="5" type="cond" truecount="0" falsecount="1"/>
         <line num="48" count="0" type="stmt"/>
-        <line num="50" count="4" type="stmt"/>
-        <line num="51" count="4" type="stmt"/>
-        <line num="52" count="4" type="stmt"/>
-        <line num="53" count="4" type="stmt"/>
+        <line num="50" count="5" type="stmt"/>
+        <line num="51" count="5" type="stmt"/>
+        <line num="52" count="5" type="stmt"/>
+        <line num="53" count="5" type="stmt"/>
         <line num="54" count="3" type="cond" truecount="3" falsecount="1"/>
         <line num="55" count="0" type="stmt"/>
         <line num="57" count="3" type="stmt"/>
-        <line num="58" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="59" count="1" type="stmt"/>
-        <line num="61" count="2" type="cond" truecount="0" falsecount="1"/>
-        <line num="62" count="0" type="stmt"/>
+        <line num="58" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="61" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="62" count="1" type="stmt"/>
         <line num="64" count="2" type="stmt"/>
         <line num="65" count="2" type="cond" truecount="3" falsecount="0"/>
         <line num="66" count="1" type="stmt"/>
         <line num="68" count="1" type="stmt"/>
         <line num="69" count="1" type="stmt"/>
-        <line num="71" count="1" type="stmt"/>
+        <line num="71" count="2" type="stmt"/>
       </file>
       <file name="enrollments-controller.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/controllers/enrollments-controller.ts">
         <metrics statements="20" coveredstatements="19" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
@@ -129,8 +129,8 @@
         <line num="18" count="11" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
         <line num="20" count="2" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="27" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
         <line num="31" count="11" type="stmt"/>
         <line num="32" count="2" type="stmt"/>
         <line num="34" count="2" type="stmt"/>
@@ -150,27 +150,27 @@
         <line num="10" count="1" type="stmt"/>
       </file>
       <file name="hotel-controller.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/controllers/hotel-controller.ts">
-        <metrics statements="21" coveredstatements="20" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <metrics statements="21" coveredstatements="17" conditionals="3" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="13" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
         <line num="20" count="11" type="stmt"/>
-        <line num="21" count="5" type="stmt"/>
-        <line num="22" count="5" type="stmt"/>
-        <line num="24" count="5" type="stmt"/>
-        <line num="25" count="5" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
         <line num="27" count="2" type="stmt"/>
-        <line num="29" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="30" count="2" type="stmt"/>
-        <line num="32" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="33" count="1" type="stmt"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="33" count="0" type="stmt"/>
         <line num="35" count="0" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/controllers/index.ts">
@@ -184,38 +184,38 @@
         <line num="7" count="11" type="stmt"/>
       </file>
       <file name="payments-controller.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/controllers/payments-controller.ts">
-        <metrics statements="28" coveredstatements="25" conditionals="8" coveredconditionals="5" methods="2" coveredmethods="2"/>
+        <metrics statements="28" coveredstatements="23" conditionals="8" coveredconditionals="6" methods="2" coveredmethods="2"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
-        <line num="11" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="12" count="1" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="16" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="17" count="0" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="21" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
         <line num="28" count="11" type="stmt"/>
-        <line num="29" count="7" type="stmt"/>
-        <line num="30" count="7" type="stmt"/>
-        <line num="34" count="7" type="stmt"/>
-        <line num="36" count="7" type="cond" truecount="3" falsecount="0"/>
+        <line num="29" count="5" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="34" count="5" type="stmt"/>
+        <line num="36" count="5" type="cond" truecount="3" falsecount="0"/>
         <line num="37" count="2" type="stmt"/>
-        <line num="39" count="5" type="stmt"/>
-        <line num="41" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="41" count="1" type="cond" truecount="0" falsecount="1"/>
         <line num="42" count="0" type="stmt"/>
-        <line num="45" count="3" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
         <line num="47" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="48" count="1" type="stmt"/>
         <line num="50" count="1" type="stmt"/>
       </file>
       <file name="tickets-controller.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/controllers/tickets-controller.ts">
-        <metrics statements="22" coveredstatements="21" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <metrics statements="22" coveredstatements="20" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="2" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
@@ -224,16 +224,16 @@
         <line num="10" count="2" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="16" count="11" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
         <line num="28" count="11" type="stmt"/>
-        <line num="29" count="4" type="stmt"/>
-        <line num="32" count="4" type="stmt"/>
-        <line num="34" count="4" type="cond" truecount="1" falsecount="0"/>
-        <line num="35" count="1" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="34" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="35" count="0" type="stmt"/>
         <line num="38" count="3" type="stmt"/>
         <line num="39" count="3" type="stmt"/>
         <line num="41" count="2" type="stmt"/>
@@ -247,23 +247,23 @@
         <line num="6" count="6" type="stmt"/>
         <line num="8" count="6" type="stmt"/>
         <line num="9" count="6" type="stmt"/>
-        <line num="10" count="3" type="stmt"/>
-        <line num="15" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="15" count="5" type="cond" truecount="1" falsecount="0"/>
         <line num="16" count="1" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.errors">
-      <metrics statements="23" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="6"/>
+      <metrics statements="23" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="5"/>
       <file name="cannot-enroll-before-start-date-error.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/errors/cannot-enroll-before-start-date-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
       </file>
       <file name="cannot-list-hotels-error.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/errors/cannot-list-hotels-error.ts">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
       </file>
       <file name="conflict-error.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/errors/conflict-error.ts">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -293,7 +293,7 @@
       <file name="not-found-error.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/errors/not-found-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="13" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
       </file>
       <file name="request-error.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/errors/request-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -303,7 +303,7 @@
       <file name="unauthorized-error.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/errors/unauthorized-error.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
-        <line num="4" count="38" type="stmt"/>
+        <line num="4" count="40" type="stmt"/>
       </file>
     </package>
     <package name="src.middlewares">
@@ -315,18 +315,18 @@
         <line num="5" count="11" type="stmt"/>
         <line num="6" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
-        <line num="9" count="83" type="stmt"/>
-        <line num="10" count="83" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="71" type="stmt"/>
-        <line num="13" count="71" type="cond" truecount="0" falsecount="1"/>
-        <line num="15" count="71" type="stmt"/>
-        <line num="16" count="71" type="stmt"/>
-        <line num="18" count="59" type="stmt"/>
-        <line num="23" count="59" type="cond" truecount="1" falsecount="0"/>
-        <line num="25" count="46" type="stmt"/>
-        <line num="27" count="46" type="stmt"/>
+        <line num="9" count="79" type="stmt"/>
+        <line num="10" count="79" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="67" type="stmt"/>
+        <line num="13" count="67" type="cond" truecount="0" falsecount="1"/>
+        <line num="15" count="67" type="stmt"/>
+        <line num="16" count="67" type="stmt"/>
+        <line num="18" count="55" type="stmt"/>
+        <line num="23" count="55" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="41" type="stmt"/>
+        <line num="27" count="41" type="stmt"/>
         <line num="29" count="12" type="stmt"/>
-        <line num="34" count="37" type="stmt"/>
+        <line num="34" count="38" type="stmt"/>
       </file>
       <file name="error-handling-middleware.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/middlewares/error-handling-middleware.ts">
         <metrics statements="14" coveredstatements="2" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -367,11 +367,11 @@
       </file>
     </package>
     <package name="src.repositories.address-repository">
-      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="index.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/repositories/address-repository/index.ts">
-        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="20" count="11" type="stmt"/>
         <line num="24" count="11" type="stmt"/>
       </file>
@@ -389,15 +389,16 @@
       </file>
     </package>
     <package name="src.repositories.enrollment-repository">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
       <file name="index.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/repositories/enrollment-repository/index.ts">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="5" count="26" type="stmt"/>
-        <line num="14" count="5" type="stmt"/>
+        <line num="5" count="25" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
         <line num="24" count="2" type="stmt"/>
-        <line num="36" count="11" type="stmt"/>
-        <line num="42" count="11" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="40" count="11" type="stmt"/>
+        <line num="47" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.event-repository">
@@ -423,24 +424,25 @@
       </file>
     </package>
     <package name="src.repositories.payment-repository">
-      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="index.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/repositories/payment-repository/index.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="13" count="3" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
         <line num="23" count="11" type="stmt"/>
         <line num="28" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.session-repository">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="index.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/repositories/session-repository/index.ts">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
         <line num="5" count="5" type="stmt"/>
-        <line num="10" count="11" type="stmt"/>
-        <line num="14" count="11" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="23" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.ticket-repository">
@@ -450,13 +452,13 @@
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="5" count="2" type="stmt"/>
-        <line num="9" count="7" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="30" count="19" type="stmt"/>
-        <line num="41" count="2" type="stmt"/>
-        <line num="49" count="3" type="stmt"/>
-        <line num="61" count="11" type="stmt"/>
-        <line num="70" count="11" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="31" count="16" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="62" count="11" type="stmt"/>
+        <line num="71" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.repositories.user-repository">
@@ -464,11 +466,11 @@
       <file name="index.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/repositories/user-repository/index.ts">
         <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="5" count="15" type="stmt"/>
-        <line num="11" count="15" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="11" count="14" type="cond" truecount="1" falsecount="0"/>
         <line num="12" count="9" type="stmt"/>
-        <line num="15" count="15" type="stmt"/>
-        <line num="19" count="4" type="stmt"/>
+        <line num="15" count="14" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
         <line num="24" count="11" type="stmt"/>
         <line num="29" count="11" type="stmt"/>
       </file>
@@ -608,14 +610,14 @@
       </file>
     </package>
     <package name="src.services.authentication-service">
-      <metrics statements="24" coveredstatements="24" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+      <metrics statements="26" coveredstatements="25" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="5"/>
       <file name="errors.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/services/authentication-service/errors.ts">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="6" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/services/authentication-service/index.ts">
-        <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <metrics statements="24" coveredstatements="23" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
@@ -636,8 +638,10 @@
         <line num="42" count="7" type="stmt"/>
         <line num="43" count="7" type="cond" truecount="1" falsecount="0"/>
         <line num="55" count="11" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
         <line num="59" count="11" type="stmt"/>
-        <line num="60" count="11" type="stmt"/>
+        <line num="64" count="11" type="stmt"/>
+        <line num="65" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.booking-service">
@@ -655,9 +659,9 @@
       </file>
     </package>
     <package name="src.services.enrollments-service">
-      <metrics statements="28" coveredstatements="26" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
+      <metrics statements="29" coveredstatements="26" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="5"/>
       <file name="index.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/services/enrollments-service/index.ts">
-        <metrics statements="28" coveredstatements="26" conditionals="8" coveredconditionals="6" methods="5" coveredmethods="5"/>
+        <metrics statements="29" coveredstatements="26" conditionals="8" coveredconditionals="6" methods="6" coveredmethods="5"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
@@ -674,18 +678,19 @@
         <line num="40" count="1" type="stmt"/>
         <line num="41" count="1" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
-        <line num="52" count="1" type="cond" truecount="0" falsecount="1"/>
-        <line num="54" count="1" type="stmt"/>
+        <line num="52" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="54" count="0" type="stmt"/>
         <line num="60" count="2" type="stmt"/>
         <line num="61" count="2" type="stmt"/>
         <line num="65" count="2" type="stmt"/>
         <line num="66" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="67" count="0" type="stmt"/>
         <line num="70" count="2" type="stmt"/>
-        <line num="72" count="0" type="stmt"/>
+        <line num="72" count="2" type="stmt"/>
         <line num="76" count="2" type="stmt"/>
-        <line num="86" count="11" type="stmt"/>
-        <line num="92" count="11" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="90" count="11" type="stmt"/>
+        <line num="97" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.events-service">
@@ -701,33 +706,33 @@
         <line num="11" count="1" type="stmt"/>
         <line num="17" count="9" type="stmt"/>
         <line num="18" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="20" count="7" type="stmt"/>
-        <line num="21" count="7" type="stmt"/>
-        <line num="22" count="7" type="stmt"/>
-        <line num="24" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="24" count="6" type="cond" truecount="2" falsecount="0"/>
         <line num="27" count="11" type="stmt"/>
         <line num="32" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.services.hotels-service">
-      <metrics statements="23" coveredstatements="23" conditionals="7" coveredconditionals="7" methods="4" coveredmethods="4"/>
+      <metrics statements="23" coveredstatements="22" conditionals="7" coveredconditionals="6" methods="4" coveredmethods="4"/>
       <file name="index.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/services/hotels-service/index.ts">
-        <metrics statements="23" coveredstatements="23" conditionals="7" coveredconditionals="7" methods="4" coveredmethods="4"/>
+        <metrics statements="23" coveredstatements="22" conditionals="7" coveredconditionals="6" methods="4" coveredmethods="4"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
         <line num="5" count="11" type="stmt"/>
-        <line num="9" count="8" type="stmt"/>
-        <line num="10" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="cond" truecount="1" falsecount="0"/>
         <line num="11" count="2" type="stmt"/>
-        <line num="14" count="6" type="stmt"/>
-        <line num="16" count="6" type="cond" truecount="5" falsecount="0"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="22" count="3" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="cond" truecount="4" falsecount="1"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
-        <line num="29" count="5" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
         <line num="30" count="3" type="stmt"/>
         <line num="32" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="33" count="1" type="stmt"/>
@@ -739,30 +744,30 @@
       </file>
     </package>
     <package name="src.services.payments-service">
-      <metrics statements="23" coveredstatements="22" conditionals="3" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <metrics statements="23" coveredstatements="19" conditionals="3" coveredconditionals="2" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/services/payments-service/index.ts">
-        <metrics statements="23" coveredstatements="22" conditionals="3" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <metrics statements="23" coveredstatements="19" conditionals="3" coveredconditionals="2" methods="3" coveredmethods="3"/>
         <line num="1" count="11" type="stmt"/>
         <line num="2" count="11" type="stmt"/>
         <line num="3" count="11" type="stmt"/>
         <line num="4" count="11" type="stmt"/>
-        <line num="7" count="7" type="stmt"/>
-        <line num="9" count="7" type="cond" truecount="1" falsecount="0"/>
-        <line num="10" count="2" type="stmt"/>
-        <line num="12" count="5" type="stmt"/>
-        <line num="14" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="20" count="2" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="24" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="25" count="0" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="31" count="5" type="stmt"/>
-        <line num="33" count="3" type="stmt"/>
-        <line num="35" count="3" type="stmt"/>
-        <line num="42" count="3" type="stmt"/>
-        <line num="44" count="3" type="stmt"/>
-        <line num="46" count="3" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
         <line num="57" count="11" type="stmt"/>
         <line num="62" count="11" type="stmt"/>
       </file>
@@ -779,13 +784,13 @@
         <line num="9" count="2" type="cond" truecount="0" falsecount="1"/>
         <line num="10" count="0" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
-        <line num="16" count="13" type="stmt"/>
-        <line num="17" count="13" type="cond" truecount="1" falsecount="0"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="20" count="11" type="stmt"/>
-        <line num="21" count="11" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="14" type="stmt"/>
+        <line num="17" count="14" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="20" count="10" type="stmt"/>
+        <line num="21" count="10" type="cond" truecount="1" falsecount="0"/>
         <line num="22" count="2" type="stmt"/>
-        <line num="25" count="9" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
         <line num="29" count="3" type="stmt"/>
         <line num="30" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="31" count="1" type="stmt"/>
@@ -813,15 +818,15 @@
         <line num="6" count="11" type="stmt"/>
         <line num="8" count="11" type="stmt"/>
         <line num="9" count="9" type="stmt"/>
-        <line num="11" count="6" type="stmt"/>
-        <line num="13" count="4" type="stmt"/>
-        <line num="14" count="4" type="stmt"/>
-        <line num="21" count="6" type="stmt"/>
-        <line num="22" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="22" count="5" type="cond" truecount="1" falsecount="0"/>
         <line num="23" count="2" type="stmt"/>
         <line num="28" count="9" type="stmt"/>
         <line num="29" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="30" count="3" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
         <line num="36" count="11" type="stmt"/>
         <line num="40" count="11" type="stmt"/>
         <line num="41" count="11" type="stmt"/>
@@ -839,10 +844,10 @@
       <file name="prisma-utils.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/utils/prisma-utils.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="11" type="stmt"/>
-        <line num="2" count="12" type="stmt"/>
-        <line num="3" count="12" type="stmt"/>
-        <line num="4" count="18" type="stmt"/>
-        <line num="6" count="12" type="stmt"/>
+        <line num="2" count="11" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="15" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
       </file>
       <file name="request.ts" path="/home/caio/Documentos/Driven/calvs-drivent/src/utils/request.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -857,9 +862,9 @@
       </file>
     </package>
     <package name="tests">
-      <metrics statements="21" coveredstatements="21" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="helpers.ts" path="/home/caio/Documentos/Driven/calvs-drivent/tests/helpers.ts">
-        <metrics statements="21" coveredstatements="21" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <metrics statements="22" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="10" type="stmt"/>
         <line num="4" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
@@ -876,15 +881,16 @@
         <line num="17" count="63" type="stmt"/>
         <line num="18" count="63" type="stmt"/>
         <line num="19" count="63" type="stmt"/>
-        <line num="22" count="10" type="stmt"/>
-        <line num="23" count="53" type="cond" truecount="2" falsecount="0"/>
-        <line num="24" count="53" type="stmt"/>
-        <line num="26" count="53" type="stmt"/>
-        <line num="28" count="53" type="stmt"/>
+        <line num="20" count="63" type="stmt"/>
+        <line num="23" count="10" type="stmt"/>
+        <line num="24" count="53" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="53" type="stmt"/>
+        <line num="27" count="53" type="stmt"/>
+        <line num="29" count="53" type="stmt"/>
       </file>
     </package>
     <package name="tests.factories">
-      <metrics statements="63" coveredstatements="63" conditionals="18" coveredconditionals="17" methods="16" coveredmethods="16"/>
+      <metrics statements="69" coveredstatements="65" conditionals="18" coveredconditionals="17" methods="18" coveredmethods="16"/>
       <file name="booking-factory.ts" path="/home/caio/Documentos/Driven/calvs-drivent/tests/factories/booking-factory.ts">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
@@ -898,8 +904,8 @@
         <line num="5" count="10" type="stmt"/>
         <line num="6" count="10" type="stmt"/>
         <line num="8" count="10" type="stmt"/>
-        <line num="9" count="41" type="cond" truecount="1" falsecount="1"/>
-        <line num="11" count="41" type="stmt"/>
+        <line num="9" count="40" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="40" type="stmt"/>
         <line num="35" count="10" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
       </file>
@@ -912,7 +918,7 @@
         <line num="7" count="4" type="stmt"/>
       </file>
       <file name="hotels-factory.ts" path="/home/caio/Documentos/Driven/calvs-drivent/tests/factories/hotels-factory.ts">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <metrics statements="12" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
         <line num="1" count="10" type="stmt"/>
         <line num="2" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
@@ -920,7 +926,11 @@
         <line num="14" count="10" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
         <line num="24" count="10" type="stmt"/>
-        <line num="25" count="9" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="34" count="10" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
       </file>
       <file name="index.ts" path="/home/caio/Documentos/Driven/calvs-drivent/tests/factories/index.ts">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -937,10 +947,10 @@
         <line num="1" count="10" type="stmt"/>
         <line num="2" count="10" type="stmt"/>
         <line num="4" count="10" type="stmt"/>
-        <line num="5" count="17" type="stmt"/>
+        <line num="5" count="14" type="stmt"/>
         <line num="15" count="10" type="stmt"/>
-        <line num="16" count="6" type="stmt"/>
-        <line num="18" count="6" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
       </file>
       <file name="sessions-factory.ts" path="/home/caio/Documentos/Driven/calvs-drivent/tests/factories/sessions-factory.ts">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -951,19 +961,21 @@
         <line num="8" count="53" type="stmt"/>
       </file>
       <file name="tickets-factory.ts" path="/home/caio/Documentos/Driven/calvs-drivent/tests/factories/tickets-factory.ts">
-        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <metrics statements="14" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="5"/>
         <line num="1" count="10" type="stmt"/>
         <line num="2" count="10" type="stmt"/>
         <line num="5" count="10" type="stmt"/>
-        <line num="6" count="13" type="stmt"/>
+        <line num="6" count="10" type="stmt"/>
         <line num="16" count="10" type="stmt"/>
         <line num="17" count="5" type="stmt"/>
         <line num="27" count="10" type="stmt"/>
-        <line num="28" count="13" type="stmt"/>
-        <line num="38" count="10" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="49" count="10" type="stmt"/>
-        <line num="50" count="24" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="37" count="10" type="stmt"/>
+        <line num="38" count="11" type="stmt"/>
+        <line num="48" count="10" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="59" count="10" type="stmt"/>
+        <line num="60" count="20" type="stmt"/>
       </file>
       <file name="users-factory.ts" path="/home/caio/Documentos/Driven/calvs-drivent/tests/factories/users-factory.ts">
         <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
@@ -971,9 +983,9 @@
         <line num="2" count="10" type="stmt"/>
         <line num="4" count="10" type="stmt"/>
         <line num="6" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="129" type="cond" truecount="2" falsecount="0"/>
-        <line num="8" count="129" type="stmt"/>
-        <line num="10" count="129" type="stmt"/>
+        <line num="7" count="130" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="130" type="stmt"/>
+        <line num="10" count="130" type="stmt"/>
       </file>
     </package>
   </project>

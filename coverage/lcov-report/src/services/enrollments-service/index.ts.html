@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">90% </span>
+                <span class="strong">90.32% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>27/30</span>
+                <span class='fraction'>28/31</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">83.33% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>5/6</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">92.85% </span>
+                <span class="strong">89.65% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>26/28</span>
+                <span class='fraction'>26/29</span>
             </div>
         
             
@@ -155,7 +155,12 @@
 <a name='L90'></a><a href='#L90'>90</a>
 <a name='L91'></a><a href='#L91'>91</a>
 <a name='L92'></a><a href='#L92'>92</a>
-<a name='L93'></a><a href='#L93'>93</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L93'></a><a href='#L93'>93</a>
+<a name='L94'></a><a href='#L94'>94</a>
+<a name='L95'></a><a href='#L95'>95</a>
+<a name='L96'></a><a href='#L96'>96</a>
+<a name='L97'></a><a href='#L97'>97</a>
+<a name='L98'></a><a href='#L98'>98</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">11x</span>
 <span class="cline-any cline-yes">11x</span>
 <span class="cline-any cline-yes">11x</span>
@@ -208,7 +213,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -226,7 +231,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -238,9 +243,14 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -291,16 +301,16 @@ async function getOneWithAddressByUserId(userId: number): Promise&lt;GetOneWithA
 &nbsp;
   return {
     ...exclude(enrollmentWithAddress, "userId", "createdAt", "updatedAt", "Address"),
-    ...(!!address &amp;&amp; { address }),
+    ...(!!address &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >{ address })</span>,
   };
 }
 &nbsp;
 type GetOneWithAddressByUserIdResult = Omit&lt;Enrollment, "userId" | "createdAt" | "updatedAt"&gt;;
 &nbsp;
 function getFirstAddress(firstAddress: Address): GetAddressResult {
-  <span class="missing-if-branch" title="if path not taken" >I</span>if (!firstAddress) <span class="cstat-no" title="statement not covered" >return null;</span>
+  if (!firstAddress) return null;
 &nbsp;
-  return exclude(firstAddress, "createdAt", "updatedAt", "enrollmentId");
+<span class="cstat-no" title="statement not covered" >  return exclude(firstAddress, "createdAt", "updatedAt", "enrollmentId");</span>
 }
 &nbsp;
 type GetAddressResult = Omit&lt;Address, "createdAt" | "updatedAt" | "enrollmentId"&gt;;
@@ -315,10 +325,10 @@ async function createOrUpdateEnrollmentWithAddress(params: CreateOrUpdateEnrollm
   <span class="missing-if-branch" title="if path not taken" >I</span>if (result.error) {
 <span class="cstat-no" title="statement not covered" >    throw notFoundError();</span>
   }
-&nbsp;
-  const newEnrollment = await enrollmentRepository.upsert(params.userId, enrollment, exclude(enrollment, "userId"));
-&nbsp;
-<span class="cstat-no" title="statement not covered" >  await addressRepository.upsert(newEnrollment.id, address, address);</span>
+  
+  const newEnrollment = await enrollmentRepository.upsert(params.userId, enrollment, exclude(enrollment, "userId"));    
+  
+  await addressRepository.upsert(newEnrollment.id, address, address);
 }
 &nbsp;
 function getAddressForUpsert(address: CreateAddressParams) {
@@ -332,10 +342,15 @@ export type CreateOrUpdateEnrollmentWithAddress = CreateEnrollmentParams &amp; {
   address: CreateAddressParams;
 };
 &nbsp;
+async function <span class="fstat-no" title="function not covered" >enrollmentId(</span>) {
+<span class="cstat-no" title="statement not covered" >  return enrollmentRepository.getEnrollmentId();</span>
+}
+&nbsp;
 const enrollmentsService = {
   getOneWithAddressByUserId,
   createOrUpdateEnrollmentWithAddress,
-  getAddressFromCEP
+  getAddressFromCEP,
+  enrollmentId
 };
 &nbsp;
 export default enrollmentsService;
@@ -346,7 +361,7 @@ export default enrollmentsService;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Mon Dec 05 2022 02:50:49 GMT-0300 (Horário Padrão de Brasília)
+                at Mon Dec 05 2022 03:49:45 GMT-0300 (Horário Padrão de Brasília)
             </div>
         <script src="../../../prettify.js"></script>
         <script>
